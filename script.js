@@ -1,0 +1,38 @@
+$(document).ready(function(){
+	$('#btnDireita').click(function(){
+		$('#quadrado').animate({
+			left:'+=50px'
+		})
+	})
+
+	$('#btnEsquerda').click(function(){
+		$('#quadrado').animate({
+			left:'-=50px'
+		})
+	})
+	$('#btnAumentar').click(function(){
+		$('#quadrado').animate({
+			height:'+=50px',width:'+=50px'
+		})
+	})
+	$('#btnDiminuir').click(function(){
+		$('#quadrado').animate({
+			height:'-=50px',width:'-=50px'
+		})
+	})
+	$('#btnFurtivo').click(function(){
+		$('#quadrado').animate({
+			opacity:'0.3'
+		})
+	})
+	$('#btnBaixo').click(function(){
+		$('#quadrado').animate({
+			top:'+=50px'
+		})
+	})
+	$('#btnCima').click(function(){
+		$('#quadrado').animate({
+			top:'-=50px'
+		})
+	})
+})
